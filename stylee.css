@@ -1,0 +1,84 @@
+body{ font-size: 28px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /*safari*/
+    position: sticky;
+    top:0;
+    
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+ border-right: none;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  .articulo{
+    padding: 50px;
+    margin-top: 0px;
+    background-color: #f1f7f5;
+    height: 1900px;
+  }
+  .header{
+    background-color: aquamarine;
+    background: url('img/hermoso.jpg');
+    padding: 0%;
+    height: 150px;
+    margin:  0px;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+
+  }
+  p {
+    color:blue;
+    font-size: 40px;
+}
+.parrafo{
+    background-color: rgb(62, 212, 167);
+}
+.texto{
+    color: red;
+    font-size: 60px;
+}
+
+.imagen{
+    
+        position: absolute;
+        top: 5px;
+        left: 25px;
+           
+}
+
+.imag{
+    
+    position: absolute;
+    top: 5px;
+    right: 25px;
+       
+}
